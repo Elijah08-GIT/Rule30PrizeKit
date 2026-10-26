@@ -9,21 +9,16 @@ For the driven RIGHT half, define `gamma(t)` as cell1 AND(cell2 ORcell3).
 Suppose that from time T the driver avoids11 and gamma is zero at every fall.
 After a black driver cell at some S >= T, the complete nearest-RIGHT trace from
 S+2 onward equals the complemented one-tick-delayed driver. This transport uses
-neither periodicity, finite support nor LEFT compatibility. The black anchor is
-essential; the all-zero driver and RIGHT half do not have this trace.
+neither periodicity, finite support nor LEFT compatibility.
 
 For an eventually periodic driver with arbitrarily late black cells and eventually
 no11, literal coupling and Jen rigidity force gamma to be ONE at arbitrarily late
 falls whenever the LEFT has a finite positive edge, or both coupled halves are
-finite (including an initially empty LEFT). This excludes no center period, Q01,
-CQ, or prize problem.
+finite (including an initially empty LEFT).
 
 The method is a two-tick Boolean identity followed by induction on the driver.
 The periodicity and contradiction steps reuse the catalog's LEFT reconstruction,
-coupling/gluing and driven-LEFT or finite-configuration Jen theorems. The Boolean
-identity and Jen rigidity are inherited; no published-priority claim is made.
-
-Contributed by @Elijah08-GIT with OpenAI Codex.
+coupling/gluing and driven-LEFT or finite-configuration Jen theorems.
 -/
 
 @[expose] public section
