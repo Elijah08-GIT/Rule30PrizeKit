@@ -46,6 +46,7 @@ public import Ruliology.CellularAutomata.Rule30LightCone
 public import Ruliology.CellularAutomata.Rule30FiniteConfigs
 public import Ruliology.CellularAutomata.Rule30FiniteMaskedJen
 public import Ruliology.CellularAutomata.Rule30Coupled
+public import Ruliology.CellularAutomata.Rule30CoupledGerms
 public import Ruliology.CellularAutomata.Rule30FiniteBlackRuns
 public import Ruliology.CellularAutomata.Rule30FiniteBlackRunBlocks
 public import Ruliology.CellularAutomata.Rule30FiniteDiagonals
